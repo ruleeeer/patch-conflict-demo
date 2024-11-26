@@ -11,10 +11,10 @@ export class BadRequestError extends Error {
     this.name = 'Bad Request Error';
   }
 }
-
 // msg main
+// msg -patch
 export class DbError extends Error {
-  constructor(message-main) {
+  constructor(msg-resolved) {
     super(message);
     this.name = 'Database Error';
   }
